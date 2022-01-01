@@ -41,7 +41,13 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0%;
+  margin-bottom: 0;
+  list-style: none;
+}
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -85,4 +91,9 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
